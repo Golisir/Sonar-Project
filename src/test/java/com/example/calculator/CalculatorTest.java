@@ -8,19 +8,19 @@ class CalculatorTest {
 
     private final Calculator calc = new Calculator();
 
-   /* @Test
+   @Test
     @DisplayName("add: 2 + 3 = 5")
     void testAdd() {
         assertEquals(5, calc.add(2, 3));
         assertEquals(-1, calc.add(-2, 1));
-    } */
+    } 
 
-  /*  @Test
+   @Test
     @DisplayName("subtract: 7 - 4 = 3")
     void testSubtract() {
         assertEquals(3, calc.subtract(7, 4));
         assertEquals(-9, calc.subtract(-5, 4));
-    }*/
+    }
 
     @Test
     @DisplayName("multiply: 6 * 7 = 42")
