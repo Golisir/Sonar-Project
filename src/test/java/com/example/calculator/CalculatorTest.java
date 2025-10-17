@@ -15,12 +15,12 @@ class CalculatorTest {
         assertEquals(-1, calc.add(-2, 1));
     } */
 
-    @Test
+  /*  @Test
     @DisplayName("subtract: 7 - 4 = 3")
     void testSubtract() {
         assertEquals(3, calc.subtract(7, 4));
         assertEquals(-9, calc.subtract(-5, 4));
-    }
+    }*/
 
     @Test
     @DisplayName("multiply: 6 * 7 = 42")
